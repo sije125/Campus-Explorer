@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_scale="0.1"
+        app:lottie_speed="2"
+        android:id="@+id/loading_anim"
+        app:lottie_loop="true"
+        app:lottie_fileName="loading_anim.json"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"/>
+
+
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loading_anim"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Loading"
+        android:textColor="@color/backgroundColor"
+        android:textSize="24sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeContainer">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBuildings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:visibility="invisible" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

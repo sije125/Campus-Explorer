@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Campus Explorer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="Loading">Loading</string>
+    <string name="GET_LOCATION">GET LOCATION</string>
+    <string name="LEARN_MORE">LEARN MORE</string>
+    <string name="my_points">My Points</string>
+    <string name="all_buildings">All Buildings</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="checking_location">Checking location...</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="unt_apps">UNT APPS</string>
+    <string name="canvas">Canvas</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="youtube">Youtube</string>
+    <string name="unt_app">UNT App</string>
+    <string name="unt_transit">UNT Transit</string>
+    <string name="unt_alumni">UNT Alumni</string>
+    <string name="unt_collegelink">UNT CollegeLink</string>
+    <string name="handshake">Handshake</string>
+    <string name="unt_link">UNT Link</string>
+    <string name="unt_applications">UNT Applications</string>
+    <string name="settings">Settings</string>
+    <string name="unt_social_media">UNT Social Media</string>
+    <string name="about_us">About US</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="book_a_tour">Book A Tour</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

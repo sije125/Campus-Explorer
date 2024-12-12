@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        app:icon="@drawable/dark"
+        app:title="Enable dark mode" />
+
+    <EditTextPreference
+        android:key="name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change name" />
+
+</PreferenceScreen>

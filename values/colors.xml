@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#059033</color>
+    <color name="untGreen">#059033</color>
+    <color name="black">#000</color>
+    <color name="backgroundColor">#fff</color>
+    <color name="gray">#282828</color>
+    <color name="white">#fff</color>
+    <color name="listItemText">#fff</color>
+    <color name="DescTextV">#000</color>
+    <color name="untDarkGreen">#006A31</color>
+    <color name="DarkBackground">#fff</color>
+    <color name="BlackWhite">#000</color>
+    <color name="faded_white">#eaedef</color>
+    <color name="untDarkGreen_white">#006A31</color>
+</resources>

@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/points_fragment"
+            android:icon="@drawable/progress"
+            android:title="@string/my_points" />
+        <item
+            android:id="@+id/buildings_fragment"
+            android:icon="@drawable/buildings_ic"
+            android:title="@string/all_buildings" />
+        <item
+            android:id="@+id/unt_application_fragment"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="@string/unt_applications" />
+        <item
+            android:id="@+id/book_tour"
+            android:icon="@drawable/calender"
+            android:title="@string/book_a_tour" />
+        <item
+            android:id="@+id/social_media_fragment"
+            android:icon="?attr/actionModeShareDrawable"
+            android:title="@string/unt_social_media" />
+        <item
+            android:id="@+id/how_to_connect_fragment"
+            android:icon="@drawable/ic_how_to_connect"
+            android:title="@string/how_to_connect" />
+
+        <item android:title="@string/app_name">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/contact_US_fragment"
+                        android:icon="@drawable/contact_us"
+                        android:title="@string/contact_us" />
+                    <item
+                        android:id="@+id/about_us_fragment"
+                        android:icon="@drawable/ic_about_us"
+                        android:title="@string/about_us" />
+                    <item
+                        android:id="@+id/settings_fragment"
+                        android:icon="@drawable/ic_settings_black_24dp"
+                        android:title="@string/settings" />
+                </group>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
